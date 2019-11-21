@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_overflow"
+        android:title=""
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/OpenBrowser"
+                android:title="Open in Brower"
+                android:icon="@drawable/ic_open_in_browser_black_24dp"/>
+            <item
+                android:id="@+id/SavedFiles"
+                android:title="Saved Files"
+                android:icon="@drawable/ic_save_black"/>
+            <item
+                android:id="@+id/Settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings_black_24dp"/>
+            <item
+                android:id="@+id/AboutMe"
+                android:title="About Me"
+                android:icon="@drawable/ic_person_black_24dp"/>
+            <item
+                android:id="@+id/Exit"
+                android:title="Exit Application"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+
+        </menu>
+    </item>
+
+</menu>

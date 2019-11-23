@@ -54,11 +54,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/radio1"
-                                android:text="Google play-services-vision Text Reader"/>
+                                android:text="Google play-vision Text Reader"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/Google_Service"
+                                android:text="@string/Google_Vision"
                                 android:id="@+id/GoogleService"
                                 android:visibility="gone"/>
                             <View
@@ -83,6 +83,66 @@
                     </RelativeLayout>
 
                 </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About App"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"/>
+                    <View
+                        android:id="@+id/divider4"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/dividerColor" />
+
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="- This app is currently running in Beta version."
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="2sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="- App may crash or failed to read text or even get garbage value from image."
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="2sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="- Currently this app supports only English characters and numbers."
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+
 
             </androidx.cardview.widget.CardView>
 

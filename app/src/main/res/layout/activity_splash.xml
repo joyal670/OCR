@@ -20,6 +20,27 @@
         android:layout_below="@+id/logo_id"
         android:layout_centerHorizontal="true"
         android:text="Optical Character Reader"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:id="@+id/mytext"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/mytext">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="150sp"
+           android:id="@+id/mytext1"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/mytext3"
+           android:layout_below="@+id/mytext1"
+           android:text="Save the file before searching for results, Otherwise image will be lost!!!!"
+           android:textSize="16sp"
+           android:textAlignment="center"/>
+
+   </RelativeLayout>
 
 </RelativeLayout>

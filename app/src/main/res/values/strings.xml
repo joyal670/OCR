@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">Simple OCR</string>
+    <string name="app_name">OCR</string>
     <string name="action_settings">Settings</string>
 
-    <string name="Google_Service">
-       Text recognition is the process of detecting text in images and video streams and recognizing the text contained therein. Once detected, the recognizer then determines the actual text in each block and segments it into lines and words. This Text API detects text in Latin based languages (French, German, English, etc.), in real-time, on device.
+    <string name="Google_Vision">
+      The Mobile Vision Text API gives Android developers a powerful and reliable OCR capability that works with most Android devices.
    </string>
 
     <string name="Firebase">
-        With ML Kit a\s text recognition APIs, you can recognize text in any Latin-based language (and more, with Cloud-based text recognition).Text recognition can automate tedious data entry for credit cards, receipts, and business cards. With the Cloud-based API, you can also extract text from pictures of documents, which you can use to increase accessibility or translate documents. Apps can even keep track of real-world objects.
+      At Google I/O 2018, Google announced Firebase ML Kit, a part of the Firebase suite that intends to give our apps the ability to support intelligent features with more ease. Kit has both a general-purpose API suitable for recognizing text in images, such as the text of a street sign and an API optimized for recognizing the text of documents.
     </string>
+
 </resources>
